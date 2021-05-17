@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+body{
+    background: url(../images/human-hand-inserting-coin-piggybank.jpg) no-repeat;
+    background-size: cover;
+    background-position:0 -170px;
+    background: linear-gradient(90deg,#EC6F66,#F3A183);
+
+}
+#logo{
+    width:10%;
+    height:auto;
+    display: inline-block;
+}
+
+h2,.h2{
+    display: block;
+    font-family: 'Texturina', serif;
+    position: absolute;
+    font-size: 16px;
+    margin: 8px 0 2px 80px;
+    top:22%;
+}
+
+@media  screen and (max-width:600px) {
+    table{
+        overflow: scroll;
+    }
+    .navbar-toggler{
+        position: absolute;
+    
+    right: 0;
+    top:-9px;
+    margin: 25px;
+    }
+
+    h2.logo-text{
+        display: inline-block;
+        position: relative;
+        top:4%;
+        margin-top: -2px;
+        left:-12%;
+    }
+    a.nav-link{
+        font-family: monospace;
+        padding-left:5px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        padding-left: 14px;
+    }
+    .navbar-collapse,.navbar-collapse .collapse .show{
+        background-color: rgb(226, 252, 194);
+        
+    }
+}
+
+@media  screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        font-size: 17px;
+        font-family: cursive;
+        flex-basis: auto;
+        flex-direction: row-reverse;
+         
+    }}
+
+table{
+    background: rgba(255, 255, 255, 0.5);
+    font-family: cursive;
+    margin:0 auto 20px auto;
+    
+    
+}
+
+tr,th,td{
+    border:2px solid red;
+    padding:7px 50px 7px 50px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: violet;
+}
+tr:nth-child(odd){
+    background-color: rgb(148, 238, 160);
+}
+th{
+    background-color: rgb(74, 248, 21);
+}
+
+.heading{
+    color:white;
+    margin-top:10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+a.nav-link:hover{
+    background-color: rgb(0, 174, 255);
+    color: red;
+    transform: translateY(-9%);
+    border-radius: 5px;
+}
+
+.nav-link.active{
+    
+    border-radius: 5px;
+}
+
+.logo-text{
+    font-size: 26px;
+    color: darkorchid;
+}
